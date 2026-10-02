@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "types": [
+      "node"
+    ],
+    "tsBuildInfoFile": "./node_modules/.tmp/node.tsbuildinfo"
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}
